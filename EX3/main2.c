@@ -3,12 +3,12 @@
 
 
 int main() {
-    int i = 10;
-    if ( i  > 0 && ( i & ( i - 1 ) )  ){
-        printf("false");
+    int z = 10;
+    if ( z  > 0 && ( z & ( z - 1 ) )  ){
+        printf("no");
     }    
     else{
-        printf("true");
+        printf("yes");
     }
     
     return 0;
